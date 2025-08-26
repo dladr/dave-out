@@ -1,3 +1,4 @@
+using Assets.Scripts.Helpers;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -15,6 +16,12 @@ public class PlayerController : MonoBehaviour
     public float CurrentHorizontalInput;
     public float CurrentVerticalInput;
 
+    public JayController JayController;
+
+    private void Awake()
+    {
+        JayController = SingletonManager.Get<JayController>();
+    }
 
     private void Update()
     {
@@ -136,15 +143,7 @@ public class PlayerController : MonoBehaviour
 
         if (CurrentState == PlayerState.PunchLeftLow)
         {
-            Debug.LogWarning("Check if punch left low connected");
-            CurrentState = PlayerState.Default;
-            Anim.Play("Default");
-            return;
-        }
-
-        if (CurrentState == PlayerState.PunchLeftLow)
-        {
-            Debug.LogWarning("Check if punch left low connected");
+            JayController.OnPlayerPunchLeftLow();
             CurrentState = PlayerState.Default;
             Anim.Play("Default");
             return;
@@ -152,7 +151,7 @@ public class PlayerController : MonoBehaviour
 
         if (CurrentState == PlayerState.PunchRightLow)
         {
-            Debug.LogWarning("Check if punch right low connected");
+            JayController.OnPlayerPunchRightLow();
             CurrentState = PlayerState.Default;
             Anim.Play("Default");
             return;
@@ -160,7 +159,7 @@ public class PlayerController : MonoBehaviour
 
         if (CurrentState == PlayerState.PunchLeftHigh)
         {
-            Debug.LogWarning("Check if punch left high connected");
+            JayController.OnPlayerPunchLeftHigh();
             CurrentState = PlayerState.Default;
             Anim.Play("Default");
             return;
@@ -168,7 +167,7 @@ public class PlayerController : MonoBehaviour
 
         if (CurrentState == PlayerState.PunchRightHigh)
         {
-            Debug.LogWarning("Check if punch right high connected");
+            JayController.OnPlayerPunchRightHigh();
             CurrentState = PlayerState.Default;
             Anim.Play("Default");
             return;
