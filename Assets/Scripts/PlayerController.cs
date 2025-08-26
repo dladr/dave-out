@@ -50,6 +50,32 @@ public class PlayerController : MonoBehaviour
                 return;
             }
         }
+
+        if (Input.GetKeyDown(KeyCode.F) && CurrentState == PlayerState.Default) {
+            if (verticalInput > 0)
+            {
+                PunchLeftHigh();
+            }
+            else {
+                PunchLeftLow();
+            }
+            
+            return;
+        }
+
+        if (Input.GetKeyDown(KeyCode.H) && CurrentState == PlayerState.Default)
+        {
+            if (verticalInput > 0)
+            {
+                PunchRightHigh();
+            }
+            else
+            {
+                PunchRightLow();
+            }
+
+            return;
+        }
     }
 
     private void UpdateDodgeTime()
@@ -97,17 +123,57 @@ public class PlayerController : MonoBehaviour
         return false;
     }
 
-    public void OnDodgeTimeEnd()
+    public void OnDefaultStateEnter()
     {
-        if (CurrentState != PlayerState.DodgeLeft && CurrentState != PlayerState.DodgeRight && CurrentState != PlayerState.Duck)
+        if (CurrentState == PlayerState.DodgeLeft || CurrentState == PlayerState.DodgeRight || CurrentState == PlayerState.Duck)
         {
+            CurrentDodgeTime = 0;
+            CurrentDodgeCooldownRemaining = DodgeCooldownTime;
+            CurrentState = PlayerState.Default;
+            Anim.Play("Default");
             return;
         }
 
-        CurrentDodgeTime = 0;
-        CurrentDodgeCooldownRemaining = DodgeCooldownTime;
-        CurrentState = PlayerState.Default;
-        Anim.Play("Default");
+        if (CurrentState == PlayerState.PunchLeftLow)
+        {
+            Debug.LogWarning("Check if punch left low connected");
+            CurrentState = PlayerState.Default;
+            Anim.Play("Default");
+            return;
+        }
+
+        if (CurrentState == PlayerState.PunchLeftLow)
+        {
+            Debug.LogWarning("Check if punch left low connected");
+            CurrentState = PlayerState.Default;
+            Anim.Play("Default");
+            return;
+        }
+
+        if (CurrentState == PlayerState.PunchRightLow)
+        {
+            Debug.LogWarning("Check if punch right low connected");
+            CurrentState = PlayerState.Default;
+            Anim.Play("Default");
+            return;
+        }
+
+        if (CurrentState == PlayerState.PunchLeftHigh)
+        {
+            Debug.LogWarning("Check if punch left high connected");
+            CurrentState = PlayerState.Default;
+            Anim.Play("Default");
+            return;
+        }
+
+        if (CurrentState == PlayerState.PunchRightHigh)
+        {
+            Debug.LogWarning("Check if punch right high connected");
+            CurrentState = PlayerState.Default;
+            Anim.Play("Default");
+            return;
+        }
+
     }
 
     public void PlayTransitionFromDodge()
@@ -162,6 +228,51 @@ public class PlayerController : MonoBehaviour
 
         CurrentState = PlayerState.Duck;
         Anim.Play("Duck");
+    }
+
+    public void PunchLeftLow()
+    {
+        if (CurrentState != PlayerState.Default)
+        {
+            return;
+        }
+
+        CurrentState = PlayerState.PunchLeftLow;
+        Anim.Play("PunchLeftLow");
+    }
+
+    public void PunchRightLow()
+    {
+        if (CurrentState != PlayerState.Default)
+        {
+            return;
+        }
+
+        CurrentState = PlayerState.PunchRightLow;
+        Anim.Play("PunchRightLow");
+    }
+
+    public void PunchLeftHigh()
+    {
+        if (CurrentState != PlayerState.Default)
+        {
+            return;
+        }
+
+        CurrentState = PlayerState.PunchLeftHigh;
+        Anim.Play("PunchLeftHigh");
+    }
+
+
+    public void PunchRightHigh()
+    {
+        if (CurrentState != PlayerState.Default)
+        {
+            return;
+        }
+
+        CurrentState = PlayerState.PunchRightHigh;
+        Anim.Play("PunchRightHigh");
     }
 }
 
