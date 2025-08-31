@@ -1,3 +1,4 @@
+using Assets.Scripts.Helpers;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -7,10 +8,86 @@ public class JayController : MonoBehaviour
     public JayState CurrentJayState;
     public Slider HealthSlider;
     public float CurrentHealthPercent = 1f;
+    public PlayerController PlayerController;
+    public RingController RingController;
+    public bool IsLow;
+    public bool IsBlocking;
+
+    private void Awake()
+    {
+        PlayerController = SingletonManager.Get<PlayerController>();
+        RingController = SingletonManager.Get<RingController>();
+    }
+
+    private void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.O))
+        {
+            SetIsLow(false);
+        }
+
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            SetIsLow(true);
+        }
+
+        if (Input.GetKeyDown(KeyCode.I)) { 
+            PunchHighLeft();
+            return;
+        }
+
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            PunchHighRight();
+            return;
+        }
+    }
+
+    public void SetIsLow(bool isLow)
+    {
+        IsLow = isLow;
+        Anim.SetBool("IsLow", isLow);
+    }
 
     public void OnDefaultAnimationStateEnter()
     {
+        if(CurrentJayState == JayState.PunchingHighLeft)
+        {
+            PlayerController.OnOpponentPunchHighLeft();
+        }
+
+        if (CurrentJayState == JayState.PunchingHighRight)
+        {
+            PlayerController.OnOpponentPunchHighRight();
+        }
+
+        if (CurrentJayState == JayState.StaggerLeftLow || CurrentJayState == JayState.StaggerRightLow)
+        {
+            SetIsLow(true);
+        }
+
+        if (CurrentJayState == JayState.StaggerLeftHigh || CurrentJayState == JayState.StaggerRightHigh)
+        {
+            SetIsLow(false);
+        }
+
+
         CurrentJayState = JayState.Default;
+        IsBlocking = false;
+    }
+
+    public void BlockLow()
+    {
+        Anim.Play("BlockLow", 0, 0);
+        IsBlocking = true;
+        //CurrentJayState = JayState.BlockingLow;
+    }
+
+    public void BlockHigh()
+    {
+        Anim.Play("BlockHigh", 0, 0);
+        IsBlocking = true;
+        //CurrentJayState = JayState.BlockingHigh;
     }
 
     public void OnPlayerPunchLeftLow()
@@ -20,8 +97,14 @@ public class JayController : MonoBehaviour
             return;
         }
 
+        if (IsLow) { 
+            BlockLow();
+            return;
+        }
+
         TakeDamage();
         CurrentJayState = JayState.StaggerRightLow;
+        RingController.MoveRingPosition(true);
         
         if (CurrentHealthPercent > 0)
         {
@@ -40,9 +123,16 @@ public class JayController : MonoBehaviour
             return;
         }
 
+        if (!IsLow)
+        {
+            BlockHigh();
+            return;
+        }
+
         TakeDamage();
         CurrentJayState = JayState.StaggerRightHigh;
-  
+        RingController.MoveRingPosition(true);
+
         if (CurrentHealthPercent > 0)
         {
             Anim.Play("StaggerHighRight");
@@ -60,8 +150,15 @@ public class JayController : MonoBehaviour
             return;
         }
 
+        if (IsLow)
+        {
+            BlockLow();
+            return;
+        }
+
         TakeDamage();
         CurrentJayState = JayState.StaggerLeftLow;
+        RingController.MoveRingPosition(false);
 
         if (CurrentHealthPercent > 0)
         {
@@ -80,8 +177,15 @@ public class JayController : MonoBehaviour
             return;
         }
 
+        if (!IsLow)
+        {
+            BlockHigh();
+            return;
+        }
+
         TakeDamage();
         CurrentJayState = JayState.StaggerLeftHigh;
+        RingController.MoveRingPosition(false);
 
         if (CurrentHealthPercent > 0)
         {
@@ -103,6 +207,34 @@ public class JayController : MonoBehaviour
 
         HealthSlider.value = CurrentHealthPercent;
     }
+
+    private void PunchHighLeft()
+    {
+        if (CurrentJayState != JayState.Default)
+        {
+            return;
+        }
+
+        CurrentJayState = JayState.PunchingHighLeft;
+        Anim.Play("PunchLeftHigh");
+    }
+
+    private void PunchHighRight()
+    {
+        if (CurrentJayState != JayState.Default)
+        {
+            return;
+        }
+
+        CurrentJayState = JayState.PunchingHighRight;
+        Anim.Play("PunchRightHigh");
+    }
+
+    public void MoveRingRandom()
+    {
+        var isRight = Random.value > .5f;
+        RingController.MoveRingPosition(isRight);
+    }
 }
 
 public enum JayState
@@ -113,4 +245,10 @@ public enum JayState
     StaggerLeftHigh,
     StaggerRightHigh,
     Falling,
+    PunchingHighLeft,
+    PunchingHighRight,
+    PunchingLowLeft,
+    PunchingLowRight,
+    BlockingHigh,
+    BlockingLow,
 }

@@ -1,5 +1,6 @@
 using Assets.Scripts.Helpers;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
@@ -18,6 +19,10 @@ public class PlayerController : MonoBehaviour
 
     public JayController JayController;
 
+    public Slider HealthSlider;
+    public float CurrentHealthPercent = 1f;
+    public bool IsLow = true;
+
     private void Awake()
     {
         JayController = SingletonManager.Get<JayController>();
@@ -29,6 +34,7 @@ public class PlayerController : MonoBehaviour
         var verticalInput = Input.GetAxisRaw("Vertical");
         var isUpdatedHorizontalInput = horizontalInput != CurrentHorizontalInput;
         var isUpdatedVerticalInput = verticalInput != CurrentVerticalInput;
+        SetIsLow(verticalInput <= 0);
         CurrentHorizontalInput = horizontalInput;
         CurrentVerticalInput = verticalInput;
 
@@ -83,6 +89,12 @@ public class PlayerController : MonoBehaviour
 
             return;
         }
+    }
+
+    public void SetIsLow(bool isLow)
+    {
+        IsLow = isLow;
+        Anim.SetBool("IsLow", isLow);
     }
 
     private void UpdateDodgeTime()
@@ -173,6 +185,8 @@ public class PlayerController : MonoBehaviour
             return;
         }
 
+        CurrentState = PlayerState.Default;
+        Anim.Play("Default");
     }
 
     public void PlayTransitionFromDodge()
@@ -273,6 +287,60 @@ public class PlayerController : MonoBehaviour
         CurrentState = PlayerState.PunchRightHigh;
         Anim.Play("PunchRightHigh");
     }
+
+    public void OnOpponentPunchHighLeft()
+    {
+        if (CurrentState == PlayerState.DodgeLeft || CurrentState == PlayerState.DodgeRight || CurrentState == PlayerState.Duck)
+        {
+            Debug.LogWarning("Dodged High Left Punch!");
+            return;
+        }
+
+        TakeDamage();
+        CurrentState = PlayerState.staggerRightHigh;
+
+        if (CurrentHealthPercent > 0)
+        {
+            Anim.Play("StaggerRightHigh");
+        }
+        else
+        {
+            Anim.Play("FallRightHigh");
+        }
+    }
+
+    public void OnOpponentPunchHighRight()
+    {
+        if (CurrentState == PlayerState.DodgeLeft || CurrentState == PlayerState.DodgeRight || CurrentState == PlayerState.Duck)
+        {
+            Debug.LogWarning("Dodged High Left Punch!");
+            return;
+        }
+
+        TakeDamage();
+        CurrentState = PlayerState.staggerLeftHigh;
+
+        if (CurrentHealthPercent > 0)
+        {
+            Anim.Play("StaggerLeftHigh");
+        }
+        else
+        {
+            Anim.Play("FallLeftHigh");
+        }
+    }
+
+    private void TakeDamage()
+    {
+        CurrentHealthPercent -= .05f;
+        if (CurrentHealthPercent <= 0f)
+        {
+            CurrentHealthPercent = 0f;
+            Debug.LogWarning("Player should fall down now!");
+        }
+
+        HealthSlider.value = CurrentHealthPercent;
+    }
 }
 
 public enum PlayerState
@@ -285,4 +353,8 @@ public enum PlayerState
     PunchRightLow,
     PunchLeftHigh,
     PunchRightHigh,
+    staggerLeftLow,
+    staggerRightLow,
+    staggerLeftHigh,
+    staggerRightHigh,
 }
