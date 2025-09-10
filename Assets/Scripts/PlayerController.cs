@@ -142,6 +142,26 @@ public class PlayerController : MonoBehaviour
         return false;
     }
 
+    public void OnPunchLeftLowHitFrame()
+    {
+        JayController.OnPlayerPunchLeftLow();
+    }
+
+    public void OnPunchRightLowHitFrame()
+    {
+        JayController.OnPlayerPunchRightLow();
+    }
+
+    public void OnPunchLeftHighHitFrame()
+    {
+        JayController.OnPlayerPunchLeftHigh();
+    }
+
+    public void OnPunchRightHighHitFrame()
+    {
+        JayController.OnPlayerPunchRightHigh();
+    }
+
     public void OnDefaultStateEnter()
     {
         if (CurrentState == PlayerState.DodgeLeft || CurrentState == PlayerState.DodgeRight || CurrentState == PlayerState.Duck)
@@ -155,7 +175,6 @@ public class PlayerController : MonoBehaviour
 
         if (CurrentState == PlayerState.PunchLeftLow)
         {
-            JayController.OnPlayerPunchLeftLow();
             CurrentState = PlayerState.Default;
             Anim.Play("Default");
             return;
@@ -163,7 +182,6 @@ public class PlayerController : MonoBehaviour
 
         if (CurrentState == PlayerState.PunchRightLow)
         {
-            JayController.OnPlayerPunchRightLow();
             CurrentState = PlayerState.Default;
             Anim.Play("Default");
             return;
@@ -171,7 +189,6 @@ public class PlayerController : MonoBehaviour
 
         if (CurrentState == PlayerState.PunchLeftHigh)
         {
-            JayController.OnPlayerPunchLeftHigh();
             CurrentState = PlayerState.Default;
             Anim.Play("Default");
             return;
@@ -179,7 +196,6 @@ public class PlayerController : MonoBehaviour
 
         if (CurrentState == PlayerState.PunchRightHigh)
         {
-            JayController.OnPlayerPunchRightHigh();
             CurrentState = PlayerState.Default;
             Anim.Play("Default");
             return;

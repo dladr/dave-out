@@ -13,14 +13,57 @@ public class JayController : MonoBehaviour
     public bool IsLow;
     public bool IsBlocking;
 
+    public bool AutoAttack;
+    public float TimeUntilNextAttack;
+    public float MinTimeUntilNextAttack;
+    public float MaxTimeUntilNextAttack;
+
     private void Awake()
     {
         PlayerController = SingletonManager.Get<PlayerController>();
         RingController = SingletonManager.Get<RingController>();
+        ResetAttackTime();
+    }
+
+    public void ResetAttackTime()
+    {
+        TimeUntilNextAttack = Random.Range(MinTimeUntilNextAttack, MaxTimeUntilNextAttack);
+    }
+
+    public void UpdateAttackTime() {
+        if (!AutoAttack) {
+            return;
+        }
+
+        if(CurrentJayState != JayState.Default || IsBlocking)
+        {
+            ResetAttackTime();
+            return;
+        }
+
+        TimeUntilNextAttack -= Time.deltaTime;
+        if (TimeUntilNextAttack <= 0) { 
+            DoNextAttack();
+            ResetAttackTime() ;
+        }
+    }
+
+    public void DoNextAttack()
+    {
+        var randomBool = Random.Range(0, 1) > 0;
+        if (randomBool)
+        {
+            PunchHighLeft();
+        }
+        else {
+            PunchHighRight();
+        }
+
     }
 
     private void Update()
     {
+        UpdateAttackTime();
         if(Input.GetKeyDown(KeyCode.O))
         {
             SetIsLow(false);
@@ -49,16 +92,26 @@ public class JayController : MonoBehaviour
         Anim.SetBool("IsLow", isLow);
     }
 
+    public void OnLeftHighPunchContactFrame()
+    {
+        PlayerController.OnOpponentPunchHighLeft();
+    }
+
+    public void OnRightHighPunchContactFrame()
+    {
+        PlayerController.OnOpponentPunchHighRight();
+    }
+
     public void OnDefaultAnimationStateEnter()
     {
         if(CurrentJayState == JayState.PunchingHighLeft)
         {
-            PlayerController.OnOpponentPunchHighLeft();
+            
         }
 
         if (CurrentJayState == JayState.PunchingHighRight)
         {
-            PlayerController.OnOpponentPunchHighRight();
+
         }
 
         if (CurrentJayState == JayState.StaggerLeftLow || CurrentJayState == JayState.StaggerRightLow)
