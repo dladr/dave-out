@@ -22,6 +22,8 @@ public class PlayerController : MonoBehaviour
     public Slider HealthSlider;
     public float CurrentHealthPercent = 1f;
     public bool IsLow = true;
+    public float RapidSuperPunchWindowRemaining;
+    public float RapidSuperPunchWindow = .5f;
 
     private void Awake()
     {
@@ -34,10 +36,16 @@ public class PlayerController : MonoBehaviour
         var verticalInput = Input.GetAxisRaw("Vertical");
         var isUpdatedHorizontalInput = horizontalInput != CurrentHorizontalInput;
         var isUpdatedVerticalInput = verticalInput != CurrentVerticalInput;
-        SetIsLow(verticalInput <= 0);
+        
         CurrentHorizontalInput = horizontalInput;
         CurrentVerticalInput = verticalInput;
 
+        if (CurrentState == PlayerState.Default)
+        {
+            SetIsLow(verticalInput <= 0);
+            
+        }
+       
         UpdateDodgeTime();
 
         if(isUpdatedHorizontalInput)
@@ -89,6 +97,80 @@ public class PlayerController : MonoBehaviour
 
             return;
         }
+
+        if (Input.GetKeyDown(KeyCode.T) && SingletonManager.Get<PowerMeterController>().IsMaxedOut())
+        {
+            if (verticalInput > 0)
+            {
+                SuperPunchHigh();
+            }
+            else
+            {
+                SuperPunchLow();
+            }
+
+            return;
+        }
+    }
+
+    public void SuperPunchHigh()
+    {
+        Debug.LogWarning("Super Punch High!");
+
+        if (CurrentState == PlayerState.RapidSuperPunchHigh) {
+            return;
+        }
+
+        if (CurrentState == PlayerState.SuperPunchHigh && RapidSuperPunchWindowRemaining > 0) {
+            RapidSuperPunchHigh();
+            return;
+        }
+
+        if(CurrentState != PlayerState.SuperPunchHigh)
+        {
+            RapidSuperPunchWindowRemaining = RapidSuperPunchWindow;
+            CurrentState = PlayerState.SuperPunchHigh;
+            //TODO: Start Super Punch Animation
+        }
+    }
+
+    public void RapidSuperPunchHigh()
+    {
+        Debug.LogWarning("Rapid Super Punch High!");
+        RapidSuperPunchWindowRemaining = 0;
+        CurrentState = PlayerState.RapidSuperPunchHigh;
+        //TODO: Start Rapid Super Punch Animation
+    }
+
+    public void SuperPunchLow()
+    {
+        Debug.LogWarning("Super Punch Low!");
+
+        if (CurrentState == PlayerState.RapidSuperPunchLow)
+        {
+            return;
+        }
+
+        if (CurrentState == PlayerState.SuperPunchLow && RapidSuperPunchWindowRemaining > 0)
+        {
+            RapidSuperPunchLow();
+            return;
+        }
+
+        if (CurrentState != PlayerState.SuperPunchHigh)
+        {
+            RapidSuperPunchWindowRemaining = RapidSuperPunchWindow;
+            CurrentState = PlayerState.SuperPunchLow;
+            Anim.Play("SuperPunchLow");
+        }
+    }
+
+    public void RapidSuperPunchLow()
+    {
+        Debug.LogWarning("Rapid Super Punch Low!");
+        RapidSuperPunchWindowRemaining = 0;
+        CurrentState = PlayerState.RapidSuperPunchLow;
+        Anim.Play("SuperPunchLowRapidStart");
     }
 
     public void SetIsLow(bool isLow)
@@ -160,6 +242,21 @@ public class PlayerController : MonoBehaviour
     public void OnPunchRightHighHitFrame()
     {
         JayController.OnPlayerPunchRightHigh();
+    }
+
+    public void OnSuperPunchLowHitFrame()
+    {
+        JayController.OnPlayerSuperPunchLow();
+    }
+
+    public void OnSuperPunchLowRapidLeftHitFrame()
+    {
+        JayController.OnPlayerSuperPunchLowRapid(isLeft: true);
+    }
+
+    public void OnSuperPunchLowRapidRightHitFrame()
+    {
+        JayController.OnPlayerSuperPunchLowRapid(isLeft: false);
     }
 
     public void OnDefaultStateEnter()
@@ -304,11 +401,30 @@ public class PlayerController : MonoBehaviour
         Anim.Play("PunchRightHigh");
     }
 
+    public void BlockHigh()
+    {
+        CurrentState = PlayerState.BlockHigh;
+        Anim.Play("BlockHigh");
+    }
+
+    public void BlockLow()
+    {
+        CurrentState = PlayerState.BlockLow;
+        Anim.Play("BlockLow");
+    }
+
     public void OnOpponentPunchHighLeft()
     {
         if (CurrentState == PlayerState.DodgeLeft || CurrentState == PlayerState.DodgeRight || CurrentState == PlayerState.Duck)
         {
             Debug.LogWarning("Dodged High Left Punch!");
+            return;
+        }
+
+        if (CurrentState == PlayerState.Default && !IsLow)
+        {
+            Debug.LogWarning("Blocked High Left Punch!");
+            BlockHigh();
             return;
         }
 
@@ -333,6 +449,12 @@ public class PlayerController : MonoBehaviour
             return;
         }
 
+        if (CurrentState == PlayerState.Default && !IsLow) {
+            Debug.LogWarning("Blocked High Right Punch!");
+            BlockHigh();
+            return;
+        }
+
         TakeDamage();
         CurrentState = PlayerState.staggerLeftHigh;
 
@@ -346,6 +468,68 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    public bool OnOpponentPunchLowLeft()
+    {
+
+        if (CurrentState == PlayerState.DodgeLeft || CurrentState == PlayerState.DodgeRight)
+        {
+            Debug.LogWarning("Dodged Low Left Punch!");
+            return false;
+        }
+
+        if (CurrentState == PlayerState.Default && IsLow)
+        {
+            Debug.LogWarning("Blocked Low Left Punch!");
+            BlockLow();
+            return false;
+        }
+
+        TakeDamage();
+        CurrentState = PlayerState.staggerLeftLow;
+
+        if (CurrentHealthPercent > 0)
+        {
+            Anim.Play("StaggerRightLow");
+        }
+        else
+        {
+            Anim.Play("FallRightLow");
+        }
+
+        return true;
+    }
+
+    public bool OnOpponentPunchLowRight()
+    {
+
+        if (CurrentState == PlayerState.DodgeLeft || CurrentState == PlayerState.DodgeRight)
+        {
+            Debug.LogWarning("Dodged Low Right Punch!");
+            return false;
+        }
+
+        if (CurrentState == PlayerState.Default && IsLow)
+        {
+            Debug.LogWarning("Blocked Low Right Punch!");
+            BlockLow();
+            return false;
+        }
+
+        TakeDamage();
+        CurrentState = PlayerState.staggerRightLow;
+
+        if (CurrentHealthPercent > 0)
+        {
+            Anim.Play("StaggerLeftLow");
+        }
+        else
+        {
+            Anim.Play("FallLeftLow");
+        }
+
+        return true;
+    }
+
     private void TakeDamage()
     {
         CurrentHealthPercent -= .05f;
@@ -356,6 +540,7 @@ public class PlayerController : MonoBehaviour
         }
 
         HealthSlider.value = CurrentHealthPercent;
+        SingletonManager.Get<PowerMeterController>().DecreaseLevel();
     }
 }
 
@@ -373,4 +558,10 @@ public enum PlayerState
     staggerRightLow,
     staggerLeftHigh,
     staggerRightHigh,
+    BlockHigh,
+    BlockLow,
+    SuperPunchHigh,
+    RapidSuperPunchHigh,
+    SuperPunchLow,
+    RapidSuperPunchLow,
 }

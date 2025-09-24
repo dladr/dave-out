@@ -1,4 +1,5 @@
 using Assets.Scripts.Helpers;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -18,11 +19,25 @@ public class JayController : MonoBehaviour
     public float MinTimeUntilNextAttack;
     public float MaxTimeUntilNextAttack;
 
+    public bool CanParryAttack;
+    public List<PlayerState> ParryPlayerStates = new List<PlayerState>();
+
+
     private void Awake()
     {
         PlayerController = SingletonManager.Get<PlayerController>();
         RingController = SingletonManager.Get<RingController>();
         ResetAttackTime();
+    }
+
+    public void SetCanParryTrue()
+    {
+        CanParryAttack = true;
+    }
+
+    public void SetCanParryFalse()
+    {
+        CanParryAttack = false;
     }
 
     public void ResetAttackTime()
@@ -50,7 +65,7 @@ public class JayController : MonoBehaviour
 
     public void DoNextAttack()
     {
-        var randomBool = Random.Range(0, 1) > 0;
+        var randomBool = Random.Range(0, 2) > 0;
         if (randomBool)
         {
             PunchHighLeft();
@@ -74,14 +89,34 @@ public class JayController : MonoBehaviour
             SetIsLow(true);
         }
 
-        if (Input.GetKeyDown(KeyCode.I)) { 
-            PunchHighLeft();
+        if (Input.GetKeyDown(KeyCode.I)) {
+            if (IsLow)
+            {
+                {
+                    PunchLowLeft();
+                }
+            }
+            else
+            {
+                PunchHighLeft();
+            }
+            
             return;
         }
 
         if (Input.GetKeyDown(KeyCode.P))
         {
-            PunchHighRight();
+            if (IsLow)
+            {
+                {
+                    PunchLowRight();
+                }
+            }
+            else
+            {
+                PunchHighRight();
+            }
+
             return;
         }
     }
@@ -94,12 +129,31 @@ public class JayController : MonoBehaviour
 
     public void OnLeftHighPunchContactFrame()
     {
+        SetCanParryFalse();
         PlayerController.OnOpponentPunchHighLeft();
     }
 
     public void OnRightHighPunchContactFrame()
     {
+        SetCanParryFalse();
         PlayerController.OnOpponentPunchHighRight();
+    }
+
+    public void OnLeftLowPunchContactFrame()
+    {
+        SetCanParryFalse();
+        if (PlayerController.OnOpponentPunchLowLeft()) {
+            Anim.Play("PunchLeftLowFollowThrough");
+        }
+    }
+
+    public void OnRightLowPunchContactFrame()
+    {
+        SetCanParryFalse();
+        if (PlayerController.OnOpponentPunchLowRight())
+        {
+            Anim.Play("PunchRightLowFollowThrough");
+        }
     }
 
     public void OnDefaultAnimationStateEnter()
@@ -145,14 +199,19 @@ public class JayController : MonoBehaviour
 
     public void OnPlayerPunchLeftLow()
     {
-        if(CurrentJayState != JayState.Default)
+        var isParry = CheckForParry(PlayerState.PunchLeftLow);
+        if (!isParry)
         {
-            return;
-        }
+            if (CurrentJayState != JayState.Default)
+            {
+                return;
+            }
 
-        if (IsLow) { 
-            BlockLow();
-            return;
+            if (IsLow)
+            {
+                BlockLow();
+                return;
+            }
         }
 
         TakeDamage();
@@ -169,17 +228,108 @@ public class JayController : MonoBehaviour
         }
     }
 
-    public void OnPlayerPunchLeftHigh()
+    public void OnPlayerSuperPunchLow()
     {
-        if (CurrentJayState != JayState.Default)
+        if (CurrentHealthPercent <= 0)
         {
             return;
         }
 
-        if (!IsLow)
+        var isParry = CheckForParry(PlayerState.PunchLeftLow);
+        if (!isParry)
         {
-            BlockHigh();
+            if (CurrentJayState != JayState.Default)
+            {
+                return;
+            }
+
+            if (IsLow)
+            {
+                BlockLow();
+                return;
+            }
+        }
+
+        TakeDamage(.2f);
+        CurrentJayState = JayState.StaggerRightLow;
+        RingController.MoveRingPosition(true);
+
+        if (CurrentHealthPercent > 0)
+        {
+            Anim.Play("StaggerLowRightSuper");
+        }
+        else
+        {
+            Anim.Play("FallLowRight");
+        }
+    }
+
+    public void OnPlayerSuperPunchLowRapid(bool isLeft)
+    {
+        if(CurrentHealthPercent <= 0)
+        {
             return;
+        }
+
+        var isParry = CheckForParry(PlayerState.PunchLeftLow);
+        if (!isParry)
+        {
+            if (CurrentJayState != JayState.Default)
+            {
+                return;
+            }
+
+            if (IsLow)
+            {
+                BlockLow();
+                return;
+            }
+        }
+
+        TakeDamage(.1f);
+        CurrentJayState = isLeft ? JayState.StaggerRightLow : JayState.StaggerLeftLow;
+        RingController.MoveRingPosition(true);
+
+        if (isLeft)
+        {
+            if (CurrentHealthPercent > 0)
+            {
+                Anim.Play("StaggerLowRight");
+            }
+            else
+            {
+                Anim.Play("FallLowRight");
+            }
+        }
+        else
+        {
+            if (CurrentHealthPercent > 0)
+            {
+                Anim.Play("StaggerLowLeft");
+            }
+            else
+            {
+                Anim.Play("FallLowLeft");
+            }
+        }
+
+    }
+
+    public void OnPlayerPunchLeftHigh()
+    {
+        var isParry = CheckForParry(PlayerState.PunchLeftHigh);
+        if (!isParry)
+        {
+            if (CurrentJayState != JayState.Default)
+            {
+                return;
+            }
+
+            if (!IsLow)
+            {
+                BlockHigh();
+                return;
+            }
         }
 
         TakeDamage();
@@ -196,18 +346,37 @@ public class JayController : MonoBehaviour
         }
     }
 
-    public void OnPlayerPunchRightLow()
+    public bool CheckForParry(PlayerState playerAttackState)
     {
-        if (CurrentJayState != JayState.Default)
+        if(!CanParryAttack)
         {
-            return;
+            return false;
         }
 
-        if (IsLow)
-        {
-            BlockLow();
-            return;
+        if (ParryPlayerStates.Contains(playerAttackState)) { 
+            return true;
         }
+
+        return false;
+    }
+
+    public void OnPlayerPunchRightLow()
+    {
+        var isParry = CheckForParry(PlayerState.PunchRightLow);
+        if(!isParry)
+        {
+            if (CurrentJayState != JayState.Default)
+            {
+                return;
+            }
+
+            if (IsLow)
+            {
+                BlockLow();
+                return;
+            }
+        }
+      
 
         TakeDamage();
         CurrentJayState = JayState.StaggerLeftLow;
@@ -225,15 +394,19 @@ public class JayController : MonoBehaviour
 
     public void OnPlayerPunchRightHigh()
     {
-        if (CurrentJayState != JayState.Default)
+        var isParry = CheckForParry(PlayerState.PunchRightHigh);
+        if (!isParry)
         {
-            return;
-        }
+            if (CurrentJayState != JayState.Default)
+            {
+                return;
+            }
 
-        if (!IsLow)
-        {
-            BlockHigh();
-            return;
+            if (!IsLow)
+            {
+                BlockHigh();
+                return;
+            }
         }
 
         TakeDamage();
@@ -249,9 +422,9 @@ public class JayController : MonoBehaviour
         }
     }
 
-    private void TakeDamage()
+    private void TakeDamage(float damage = .05f)
     {
-        CurrentHealthPercent -= .05f;
+        CurrentHealthPercent -= damage;
         if(CurrentHealthPercent <= 0f)
         {
             CurrentHealthPercent = 0f;
@@ -259,6 +432,13 @@ public class JayController : MonoBehaviour
         }
 
         HealthSlider.value = CurrentHealthPercent;
+        SingletonManager.Get<PowerMeterController>().IncreaseLevel();
+    }
+
+    private void ResetParries()
+    {
+        CanParryAttack = false;
+        ParryPlayerStates = new List<PlayerState>();
     }
 
     private void PunchHighLeft()
@@ -268,8 +448,25 @@ public class JayController : MonoBehaviour
             return;
         }
 
+        ResetParries();
+        ParryPlayerStates.Add(PlayerState.PunchLeftHigh);
+
         CurrentJayState = JayState.PunchingHighLeft;
         Anim.Play("PunchLeftHigh");
+    }
+
+    private void PunchLowLeft()
+    {
+        if (CurrentJayState != JayState.Default)
+        {
+            return;
+        }
+
+        ResetParries();
+        ParryPlayerStates.Add(PlayerState.PunchLeftLow);
+
+        CurrentJayState = JayState.PunchingLowLeft;
+        Anim.Play("PunchLeftLow");
     }
 
     private void PunchHighRight()
@@ -279,8 +476,25 @@ public class JayController : MonoBehaviour
             return;
         }
 
+        ResetParries();
+        ParryPlayerStates.Add(PlayerState.PunchRightHigh);
+
         CurrentJayState = JayState.PunchingHighRight;
         Anim.Play("PunchRightHigh");
+    }
+
+    private void PunchLowRight()
+    {
+        if (CurrentJayState != JayState.Default)
+        {
+            return;
+        }
+
+        ResetParries();
+        ParryPlayerStates.Add(PlayerState.PunchRightLow);
+
+        CurrentJayState = JayState.PunchingLowRight;
+        Anim.Play("PunchRightLow");
     }
 
     public void MoveRingRandom()
