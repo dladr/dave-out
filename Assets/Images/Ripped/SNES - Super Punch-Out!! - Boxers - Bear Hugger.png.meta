@@ -1,0 +1,1534 @@
+fileFormatVersion: 2
+guid: ab63ba5a5ded64c4e8b81b8aef6b5be1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3211305441191673936
+    second: SNES - Super Punch-Out!! - Boxers - Bear Hugger_0
+  - first:
+      213: 862615187191672259
+    second: SNES - Super Punch-Out!! - Boxers - Bear Hugger_1
+  - first:
+      213: 1825269807066866238
+    second: SNES - Super Punch-Out!! - Boxers - Bear Hugger_2
+  - first:
+      213: -5453641751486982228
+    second: SNES - Super Punch-Out!! - Boxers - Bear Hugger_3
+  - first:
+      213: 3175376659407878302
+    second: SNES - Super Punch-Out!! - Boxers - Bear Hugger_4
+  - first:
+      213: -4846954302272069933
+    second: SNES - Super Punch-Out!! - Boxers - Bear Hugger_5
+  - first:
+      213: -5130717048956034806
+    second: SNES - Super Punch-Out!! - Boxers - Bear Hugger_6
+  - first:
+      213: 1129394766863852764
+    second: SNES - Super Punch-Out!! - Boxers - Bear Hugger_7
+  - first:
+      213: 8656299874764050171
+    second: SNES - Super Punch-Out!! - Boxers - Bear Hugger_8
+  - first:
+      213: -256364880526339292
+    second: SNES - Super Punch-Out!! - Boxers - Bear Hugger_9
+  - first:
+      213: -7419229572131110665
+    second: SNES - Super Punch-Out!! - Boxers - Bear Hugger_10
+  - first:
+      213: -8154861198503999548
+    second: SNES - Super Punch-Out!! - Boxers - Bear Hugger_11
+  - first:
+      213: 4753990207473699971
+    second: SNES - Super Punch-Out!! - Boxers - Bear Hugger_12
+  - first:
+      213: 324521429009899056
+    second: SNES - Super Punch-Out!! - Boxers - Bear Hugger_13
+  - first:
+      213: 5212072314637989050
+    second: SNES - Super Punch-Out!! - Boxers - Bear Hugger_14
+  - first:
+      213: -6350655306226617592
+    second: SNES - Super Punch-Out!! - Boxers - Bear Hugger_15
+  - first:
+      213: 1468793905524716362
+    second: SNES - Super Punch-Out!! - Boxers - Bear Hugger_16
+  - first:
+      213: -133619314613934268
+    second: SNES - Super Punch-Out!! - Boxers - Bear Hugger_17
+  - first:
+      213: -5263341643231852596
+    second: SNES - Super Punch-Out!! - Boxers - Bear Hugger_18
+  - first:
+      213: 5374236243535563346
+    second: SNES - Super Punch-Out!! - Boxers - Bear Hugger_19
+  - first:
+      213: 7960465470283617671
+    second: SNES - Super Punch-Out!! - Boxers - Bear Hugger_20
+  - first:
+      213: 3819851590478237842
+    second: SNES - Super Punch-Out!! - Boxers - Bear Hugger_21
+  - first:
+      213: -5498165091074128248
+    second: SNES - Super Punch-Out!! - Boxers - Bear Hugger_22
+  - first:
+      213: -3520946157253655092
+    second: SNES - Super Punch-Out!! - Boxers - Bear Hugger_23
+  - first:
+      213: 5966529764332930205
+    second: SNES - Super Punch-Out!! - Boxers - Bear Hugger_24
+  - first:
+      213: 5169786639802582393
+    second: SNES - Super Punch-Out!! - Boxers - Bear Hugger_25
+  - first:
+      213: -1263364886683520290
+    second: SNES - Super Punch-Out!! - Boxers - Bear Hugger_26
+  - first:
+      213: 7797669611316099495
+    second: SNES - Super Punch-Out!! - Boxers - Bear Hugger_27
+  - first:
+      213: -8002521550559703111
+    second: SNES - Super Punch-Out!! - Boxers - Bear Hugger_28
+  - first:
+      213: -4987045676218163986
+    second: SNES - Super Punch-Out!! - Boxers - Bear Hugger_29
+  - first:
+      213: -5589885974676971461
+    second: SNES - Super Punch-Out!! - Boxers - Bear Hugger_30
+  - first:
+      213: -1433670751245290127
+    second: SNES - Super Punch-Out!! - Boxers - Bear Hugger_31
+  - first:
+      213: 1208066871490659905
+    second: SNES - Super Punch-Out!! - Boxers - Bear Hugger_32
+  - first:
+      213: -4405496552979681744
+    second: SNES - Super Punch-Out!! - Boxers - Bear Hugger_33
+  - first:
+      213: 7033052117976297671
+    second: SNES - Super Punch-Out!! - Boxers - Bear Hugger_34
+  - first:
+      213: -4365949300270126300
+    second: SNES - Super Punch-Out!! - Boxers - Bear Hugger_35
+  - first:
+      213: -2359511115945353350
+    second: SNES - Super Punch-Out!! - Boxers - Bear Hugger_36
+  - first:
+      213: 5010840033791807390
+    second: SNES - Super Punch-Out!! - Boxers - Bear Hugger_37
+  - first:
+      213: -6427823815896869835
+    second: SNES - Super Punch-Out!! - Boxers - Bear Hugger_38
+  - first:
+      213: 5689176028391745402
+    second: SNES - Super Punch-Out!! - Boxers - Bear Hugger_39
+  - first:
+      213: -6363835058502034294
+    second: SNES - Super Punch-Out!! - Boxers - Bear Hugger_40
+  - first:
+      213: 6987259487334667635
+    second: SNES - Super Punch-Out!! - Boxers - Bear Hugger_41
+  - first:
+      213: -213905921600049009
+    second: SNES - Super Punch-Out!! - Boxers - Bear Hugger_42
+  - first:
+      213: -6862050128311343703
+    second: SNES - Super Punch-Out!! - Boxers - Bear Hugger_43
+  - first:
+      213: -9208833559290669394
+    second: SNES - Super Punch-Out!! - Boxers - Bear Hugger_44
+  - first:
+      213: 2617814840837363359
+    second: SNES - Super Punch-Out!! - Boxers - Bear Hugger_45
+  - first:
+      213: 1520417377266154107
+    second: SNES - Super Punch-Out!! - Boxers - Bear Hugger_46
+  - first:
+      213: -368011387436801526
+    second: SNES - Super Punch-Out!! - Boxers - Bear Hugger_47
+  - first:
+      213: 1722348969446944260
+    second: SNES - Super Punch-Out!! - Boxers - Bear Hugger_48
+  - first:
+      213: 5250615306847079072
+    second: SNES - Super Punch-Out!! - Boxers - Bear Hugger_49
+  - first:
+      213: -7490874283012550178
+    second: SNES - Super Punch-Out!! - Boxers - Bear Hugger_50
+  - first:
+      213: -64470848964109935
+    second: SNES - Super Punch-Out!! - Boxers - Bear Hugger_51
+  - first:
+      213: 1712079354752027196
+    second: SNES - Super Punch-Out!! - Boxers - Bear Hugger_52
+  - first:
+      213: -3590547343469079729
+    second: SNES - Super Punch-Out!! - Boxers - Bear Hugger_53
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Bear Hugger_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1579
+        width: 104
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bfbd7827b62f63d0800000000000000
+      internalID: -3211305441191673936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Bear Hugger_1
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 1579
+        width: 103
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cdaa6241ff98fb00800000000000000
+      internalID: 862615187191672259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Bear Hugger_2
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1579
+        width: 97
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3267750839a45910800000000000000
+      internalID: 1825269807066866238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Bear Hugger_3
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 1579
+        width: 96
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca7116eb8b5c054b0800000000000000
+      internalID: -5453641751486982228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Bear Hugger_4
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1406
+        width: 104
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e98b2147f34311c20800000000000000
+      internalID: 3175376659407878302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Bear Hugger_5
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1406
+        width: 109
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3de958a0eb82cbcb0800000000000000
+      internalID: -4846954302272069933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Bear Hugger_6
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1232
+        width: 102
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a016fe517080cc8b0800000000000000
+      internalID: -5130717048956034806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Bear Hugger_7
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1232
+        width: 92
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd4ea128e8a6caf00800000000000000
+      internalID: 1129394766863852764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Bear Hugger_8
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1055
+        width: 96
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfec1908fda512870800000000000000
+      internalID: 8656299874764050171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Bear Hugger_9
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1055
+        width: 91
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 423975bdf75317cf0800000000000000
+      internalID: -256364880526339292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Bear Hugger_10
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 1055
+        width: 105
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f04d0e430a990990800000000000000
+      internalID: -7419229572131110665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Bear Hugger_11
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 862
+        width: 158
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c78d8e32fc14de80800000000000000
+      internalID: -8154861198503999548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Bear Hugger_12
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 862
+        width: 132
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38cc72ee7e099f140800000000000000
+      internalID: 4753990207473699971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Bear Hugger_13
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 862
+        width: 99
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03e1322358ee08400800000000000000
+      internalID: 324521429009899056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Bear Hugger_14
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 862
+        width: 132
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab435a9c720055840800000000000000
+      internalID: 5212072314637989050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Bear Hugger_15
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 682
+        width: 97
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 803b96d65a0fdd7a0800000000000000
+      internalID: -6350655306226617592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Bear Hugger_16
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 682
+        width: 97
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a433f0b6644326410800000000000000
+      internalID: 1468793905524716362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Bear Hugger_17
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 682
+        width: 97
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4472e49f0f9452ef0800000000000000
+      internalID: -133619314613934268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Bear Hugger_18
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 682
+        width: 98
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc705af69aad4f6b0800000000000000
+      internalID: -5263341643231852596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Bear Hugger_19
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 682
+        width: 124
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25a87fab36f159a40800000000000000
+      internalID: 5374236243535563346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Bear Hugger_20
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 494
+        width: 98
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 785940b3b21497e60800000000000000
+      internalID: 7960465470283617671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Bear Hugger_21
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 494
+        width: 107
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2909a2978c6d20530800000000000000
+      internalID: 3819851590478237842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Bear Hugger_22
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 494
+        width: 107
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 886c21eeaf792b3b0800000000000000
+      internalID: -5498165091074128248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Bear Hugger_23
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 494
+        width: 98
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc58e9fef16132fc0800000000000000
+      internalID: -3520946157253655092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Bear Hugger_24
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 494
+        width: 124
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d940cd8653f5dc250800000000000000
+      internalID: 5966529764332930205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Bear Hugger_25
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 494
+        width: 86
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9754ef5ee85ceb740800000000000000
+      internalID: 5169786639802582393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Bear Hugger_26
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 300
+        width: 86
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed2f6834450a77ee0800000000000000
+      internalID: -1263364886683520290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Bear Hugger_27
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 300
+        width: 86
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a9ba5a9233e63c60800000000000000
+      internalID: 7797669611316099495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Bear Hugger_28
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 300
+        width: 121
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bf0b778c0551f090800000000000000
+      internalID: -8002521550559703111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Bear Hugger_29
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 300
+        width: 121
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eec5e5641647acab0800000000000000
+      internalID: -4987045676218163986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Bear Hugger_30
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 300
+        width: 121
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b30e070925cbc62b0800000000000000
+      internalID: -5589885974676971461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Bear Hugger_31
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 300
+        width: 116
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17538233c049a1ce0800000000000000
+      internalID: -1433670751245290127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Bear Hugger_32
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 106
+        width: 109
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1464e144b6ae3c010800000000000000
+      internalID: 1208066871490659905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Bear Hugger_33
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 106
+        width: 158
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03e2074f9388cd2c0800000000000000
+      internalID: -4405496552979681744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Bear Hugger_34
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 106
+        width: 158
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c039ca73ab6a9160800000000000000
+      internalID: 7033052117976297671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Bear Hugger_35
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 106
+        width: 97
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42ba8024e380963c0800000000000000
+      internalID: -4365949300270126300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Bear Hugger_36
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 106
+        width: 97
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7fdd7a2425514fd0800000000000000
+      internalID: -2359511115945353350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Bear Hugger_37
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 74
+        width: 37
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9f877056741a8540800000000000000
+      internalID: 5010840033791807390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Bear Hugger_38
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 71
+        width: 61
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 534dba6ab48cbc6a0800000000000000
+      internalID: -6427823815896869835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Bear Hugger_39
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 71
+        width: 51
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7725fc847304fe40800000000000000
+      internalID: 5689176028391745402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Bear Hugger_40
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 74
+        width: 51
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8c1fc83bbd1fa7a0800000000000000
+      internalID: -6363835058502034294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Bear Hugger_41
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 74
+        width: 32
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3759f00db7bb7f060800000000000000
+      internalID: 6987259487334667635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Bear Hugger_42
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 74
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f803da792bd080df0800000000000000
+      internalID: -213905921600049009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Bear Hugger_43
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 77
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a52417d3c915c0a0800000000000000
+      internalID: -6862050128311343703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Bear Hugger_44
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 55
+        width: 53
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea698c61ba6a33080800000000000000
+      internalID: -9208833559290669394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Bear Hugger_45
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 55
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f965bdb5ab8545420800000000000000
+      internalID: 2617814840837363359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Bear Hugger_46
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 58
+        width: 46
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7ab7429c8b991510800000000000000
+      internalID: 1520417377266154107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Bear Hugger_47
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 42
+        width: 50
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a02e78ac79f84eaf0800000000000000
+      internalID: -368011387436801526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Bear Hugger_48
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 39
+        width: 34
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40e2527234307e710800000000000000
+      internalID: 1722348969446944260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Bear Hugger_49
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 42
+        width: 44
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aa49d87dceedd840800000000000000
+      internalID: 5250615306847079072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Bear Hugger_50
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 42
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed19de727811b0890800000000000000
+      internalID: -7490874283012550178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Bear Hugger_51
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 42
+        width: 38
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 199502dba14fa1ff0800000000000000
+      internalID: -64470848964109935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Bear Hugger_52
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 26
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3a46472a1782c710800000000000000
+      internalID: 1712079354752027196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Bear Hugger_53
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 23
+        width: 36
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f439d43f630db2ec0800000000000000
+      internalID: -3590547343469079729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SNES - Super Punch-Out!! - Boxers - Bear Hugger_0: -3211305441191673936
+      SNES - Super Punch-Out!! - Boxers - Bear Hugger_1: 862615187191672259
+      SNES - Super Punch-Out!! - Boxers - Bear Hugger_10: -7419229572131110665
+      SNES - Super Punch-Out!! - Boxers - Bear Hugger_11: -8154861198503999548
+      SNES - Super Punch-Out!! - Boxers - Bear Hugger_12: 4753990207473699971
+      SNES - Super Punch-Out!! - Boxers - Bear Hugger_13: 324521429009899056
+      SNES - Super Punch-Out!! - Boxers - Bear Hugger_14: 5212072314637989050
+      SNES - Super Punch-Out!! - Boxers - Bear Hugger_15: -6350655306226617592
+      SNES - Super Punch-Out!! - Boxers - Bear Hugger_16: 1468793905524716362
+      SNES - Super Punch-Out!! - Boxers - Bear Hugger_17: -133619314613934268
+      SNES - Super Punch-Out!! - Boxers - Bear Hugger_18: -5263341643231852596
+      SNES - Super Punch-Out!! - Boxers - Bear Hugger_19: 5374236243535563346
+      SNES - Super Punch-Out!! - Boxers - Bear Hugger_2: 1825269807066866238
+      SNES - Super Punch-Out!! - Boxers - Bear Hugger_20: 7960465470283617671
+      SNES - Super Punch-Out!! - Boxers - Bear Hugger_21: 3819851590478237842
+      SNES - Super Punch-Out!! - Boxers - Bear Hugger_22: -5498165091074128248
+      SNES - Super Punch-Out!! - Boxers - Bear Hugger_23: -3520946157253655092
+      SNES - Super Punch-Out!! - Boxers - Bear Hugger_24: 5966529764332930205
+      SNES - Super Punch-Out!! - Boxers - Bear Hugger_25: 5169786639802582393
+      SNES - Super Punch-Out!! - Boxers - Bear Hugger_26: -1263364886683520290
+      SNES - Super Punch-Out!! - Boxers - Bear Hugger_27: 7797669611316099495
+      SNES - Super Punch-Out!! - Boxers - Bear Hugger_28: -8002521550559703111
+      SNES - Super Punch-Out!! - Boxers - Bear Hugger_29: -4987045676218163986
+      SNES - Super Punch-Out!! - Boxers - Bear Hugger_3: -5453641751486982228
+      SNES - Super Punch-Out!! - Boxers - Bear Hugger_30: -5589885974676971461
+      SNES - Super Punch-Out!! - Boxers - Bear Hugger_31: -1433670751245290127
+      SNES - Super Punch-Out!! - Boxers - Bear Hugger_32: 1208066871490659905
+      SNES - Super Punch-Out!! - Boxers - Bear Hugger_33: -4405496552979681744
+      SNES - Super Punch-Out!! - Boxers - Bear Hugger_34: 7033052117976297671
+      SNES - Super Punch-Out!! - Boxers - Bear Hugger_35: -4365949300270126300
+      SNES - Super Punch-Out!! - Boxers - Bear Hugger_36: -2359511115945353350
+      SNES - Super Punch-Out!! - Boxers - Bear Hugger_37: 5010840033791807390
+      SNES - Super Punch-Out!! - Boxers - Bear Hugger_38: -6427823815896869835
+      SNES - Super Punch-Out!! - Boxers - Bear Hugger_39: 5689176028391745402
+      SNES - Super Punch-Out!! - Boxers - Bear Hugger_4: 3175376659407878302
+      SNES - Super Punch-Out!! - Boxers - Bear Hugger_40: -6363835058502034294
+      SNES - Super Punch-Out!! - Boxers - Bear Hugger_41: 6987259487334667635
+      SNES - Super Punch-Out!! - Boxers - Bear Hugger_42: -213905921600049009
+      SNES - Super Punch-Out!! - Boxers - Bear Hugger_43: -6862050128311343703
+      SNES - Super Punch-Out!! - Boxers - Bear Hugger_44: -9208833559290669394
+      SNES - Super Punch-Out!! - Boxers - Bear Hugger_45: 2617814840837363359
+      SNES - Super Punch-Out!! - Boxers - Bear Hugger_46: 1520417377266154107
+      SNES - Super Punch-Out!! - Boxers - Bear Hugger_47: -368011387436801526
+      SNES - Super Punch-Out!! - Boxers - Bear Hugger_48: 1722348969446944260
+      SNES - Super Punch-Out!! - Boxers - Bear Hugger_49: 5250615306847079072
+      SNES - Super Punch-Out!! - Boxers - Bear Hugger_5: -4846954302272069933
+      SNES - Super Punch-Out!! - Boxers - Bear Hugger_50: -7490874283012550178
+      SNES - Super Punch-Out!! - Boxers - Bear Hugger_51: -64470848964109935
+      SNES - Super Punch-Out!! - Boxers - Bear Hugger_52: 1712079354752027196
+      SNES - Super Punch-Out!! - Boxers - Bear Hugger_53: -3590547343469079729
+      SNES - Super Punch-Out!! - Boxers - Bear Hugger_6: -5130717048956034806
+      SNES - Super Punch-Out!! - Boxers - Bear Hugger_7: 1129394766863852764
+      SNES - Super Punch-Out!! - Boxers - Bear Hugger_8: 8656299874764050171
+      SNES - Super Punch-Out!! - Boxers - Bear Hugger_9: -256364880526339292
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
     public float CurrentHorizontalInput;
     public float CurrentVerticalInput;
 
-    public JayController JayController;
+    public SantaController SantaController;
 
     public Slider HealthSlider;
     public float CurrentHealthPercent = 1f;
@@ -27,7 +27,7 @@ public class PlayerController : MonoBehaviour
 
     private void Awake()
     {
-        JayController = SingletonManager.Get<JayController>();
+        SantaController = SingletonManager.Get<SantaController>();
     }
 
     private void Update()
@@ -226,37 +226,37 @@ public class PlayerController : MonoBehaviour
 
     public void OnPunchLeftLowHitFrame()
     {
-        JayController.OnPlayerPunchLeftLow();
+        SantaController.OnPlayerPunchLeftLow();
     }
 
     public void OnPunchRightLowHitFrame()
     {
-        JayController.OnPlayerPunchRightLow();
+        SantaController.OnPlayerPunchRightLow();
     }
 
     public void OnPunchLeftHighHitFrame()
     {
-        JayController.OnPlayerPunchLeftHigh();
+        SantaController.OnPlayerPunchLeftHigh();
     }
 
     public void OnPunchRightHighHitFrame()
     {
-        JayController.OnPlayerPunchRightHigh();
+        SantaController.OnPlayerPunchRightHigh();
     }
 
     public void OnSuperPunchLowHitFrame()
     {
-        JayController.OnPlayerSuperPunchLow();
+        SantaController.OnPlayerSuperPunchLow();
     }
 
     public void OnSuperPunchLowRapidLeftHitFrame()
     {
-        JayController.OnPlayerSuperPunchLowRapid(isLeft: true);
+        SantaController.OnPlayerSuperPunchLowRapid(isLeft: true);
     }
 
     public void OnSuperPunchLowRapidRightHitFrame()
     {
-        JayController.OnPlayerSuperPunchLowRapid(isLeft: false);
+        SantaController.OnPlayerSuperPunchLowRapid(isLeft: false);
     }
 
     public void OnDefaultStateEnter()

@@ -1,0 +1,2028 @@
+fileFormatVersion: 2
+guid: d1b2a2e7c3509f149b860b8ff795eb29
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4567363742610095219
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_0
+  - first:
+      213: -5660897300004395520
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_1
+  - first:
+      213: -8203081992945829200
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_2
+  - first:
+      213: 1979404258562954017
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_3
+  - first:
+      213: -5218602204347814639
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_4
+  - first:
+      213: 7738262370466826485
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_5
+  - first:
+      213: -9209111498542268396
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_6
+  - first:
+      213: -3077277873036650572
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_7
+  - first:
+      213: -3614941318663094218
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_8
+  - first:
+      213: 32645423605666737
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_9
+  - first:
+      213: 2380736421611185831
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_10
+  - first:
+      213: -2124968082434049246
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_11
+  - first:
+      213: -5945052879061577588
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_12
+  - first:
+      213: -8926964728620461359
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_13
+  - first:
+      213: -7949008360455000738
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_14
+  - first:
+      213: 7524045114420296064
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_15
+  - first:
+      213: -5108892578028818019
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_16
+  - first:
+      213: 1727885403887475490
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_17
+  - first:
+      213: -8089079396251369719
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_18
+  - first:
+      213: -2577770133499509671
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_19
+  - first:
+      213: -2768360275514200517
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_20
+  - first:
+      213: 2337320049910427959
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_21
+  - first:
+      213: 3432352380045535688
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_22
+  - first:
+      213: 8452901254306996294
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_23
+  - first:
+      213: 3138084176795334241
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_24
+  - first:
+      213: -4176619900538060237
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_25
+  - first:
+      213: -6206049083769698043
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_26
+  - first:
+      213: -8369192658102897540
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_27
+  - first:
+      213: -5657428357701142902
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_28
+  - first:
+      213: -798015530926614684
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_29
+  - first:
+      213: 5844944626577236319
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_30
+  - first:
+      213: 4947774755687076713
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_31
+  - first:
+      213: 4284143150030914592
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_32
+  - first:
+      213: 2558434396778749991
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_33
+  - first:
+      213: 1217110396611019138
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_34
+  - first:
+      213: 1294808640960474821
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_35
+  - first:
+      213: 6521295495763098746
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_36
+  - first:
+      213: -8743912440629684271
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_37
+  - first:
+      213: -5927956770816639162
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_38
+  - first:
+      213: 6394639579329472127
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_39
+  - first:
+      213: -1147760752650737310
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_40
+  - first:
+      213: 4300659707610809593
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_41
+  - first:
+      213: 1788624065534344366
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_42
+  - first:
+      213: -1997632705090986661
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_43
+  - first:
+      213: -5968643255630838871
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_44
+  - first:
+      213: -5189382128439217574
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_45
+  - first:
+      213: 7142702100955869684
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_46
+  - first:
+      213: 6139267693014195336
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_47
+  - first:
+      213: 4340952870406651847
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_48
+  - first:
+      213: -5654318561670458384
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_49
+  - first:
+      213: 2140846592164395828
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_50
+  - first:
+      213: -5702759228087934216
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_51
+  - first:
+      213: 1124760499119773368
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_52
+  - first:
+      213: -1344648920444794196
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_53
+  - first:
+      213: -8817025802747458458
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_54
+  - first:
+      213: 8514701718853679840
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_55
+  - first:
+      213: 1222720125107878334
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_56
+  - first:
+      213: -6639653241492920580
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_57
+  - first:
+      213: 8448788734365633864
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_58
+  - first:
+      213: 2050055350142484171
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_59
+  - first:
+      213: -472125573173662432
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_60
+  - first:
+      213: -981292659410961683
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_61
+  - first:
+      213: -6137201527621204331
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_62
+  - first:
+      213: -3141023342891561105
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_63
+  - first:
+      213: 763530881713375055
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_64
+  - first:
+      213: -7188182587525932168
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_65
+  - first:
+      213: -5318816222449722759
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_66
+  - first:
+      213: 5744313899665070889
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_67
+  - first:
+      213: 7813674171230251902
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_68
+  - first:
+      213: 2284935096659181208
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_69
+  - first:
+      213: 5594275743815570638
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_70
+  - first:
+      213: 4492481744285374947
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_71
+  - first:
+      213: 5618105441911642194
+    second: SNES - Super Punch-Out!! - Boxers - Mad Clown_72
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_0
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 1714
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d830ab100e67d90c0800000000000000
+      internalID: -4567363742610095219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_1
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 1714
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 006254bf5e37071b0800000000000000
+      internalID: -5660897300004395520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_2
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 1714
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ba7f03a36cc82e80800000000000000
+      internalID: -8203081992945829200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_3
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 1714
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1235a829fa1487b10800000000000000
+      internalID: 1979404258562954017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_4
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 1714
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11d27c9c1fcc397b0800000000000000
+      internalID: -5218602204347814639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_5
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 1714
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f8827a70a4d36b60800000000000000
+      internalID: 7738262370466826485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_6
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 1714
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4104c6052e9a23080800000000000000
+      internalID: -9209111498542268396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_7
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 1539
+        width: 104
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b71b7e14105b45d0800000000000000
+      internalID: -3077277873036650572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_8
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1539
+        width: 103
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6304431060625ddc0800000000000000
+      internalID: -3614941318663094218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_9
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 1539
+        width: 97
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b3de8df6daf37000800000000000000
+      internalID: 32645423605666737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_10
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 1539
+        width: 96
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a628f969231a0120800000000000000
+      internalID: 2380736421611185831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_11
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1323
+        width: 102
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22bb97f99c89282e0800000000000000
+      internalID: -2124968082434049246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_12
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1321
+        width: 92
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c801f9c97edee7da0800000000000000
+      internalID: -5945052879061577588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_13
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 1323
+        width: 95
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d2d22c50ec0d1480800000000000000
+      internalID: -8926964728620461359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_14
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 1323
+        width: 90
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5d287603037fa190800000000000000
+      internalID: -7949008360455000738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_15
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 1324
+        width: 105
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 089f80fda27ca6860800000000000000
+      internalID: 7524045114420296064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_16
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 1107
+        width: 92
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9176f2b4419919b0800000000000000
+      internalID: -5108892578028818019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_17
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 1107
+        width: 92
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22b9b4fbe9eaaf710800000000000000
+      internalID: 1727885403887475490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_18
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 1107
+        width: 102
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90f718a9521ddbf80800000000000000
+      internalID: -8089079396251369719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_19
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 1198
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9548620a8bbe93cd0800000000000000
+      internalID: -2577770133499509671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_20
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 1200
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3e6caf2ffec499d0800000000000000
+      internalID: -2768360275514200517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_21
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 1197
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7313f45a334df6020800000000000000
+      internalID: 2337320049910427959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_22
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 1197
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c9a494ed4a22af20800000000000000
+      internalID: 3432352380045535688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_23
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 1200
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6402c68c7ecbe4570800000000000000
+      internalID: 8452901254306996294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_24
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 1200
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 166f829bee6bc8b20800000000000000
+      internalID: 3138084176795334241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_25
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 1200
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3320a92445aa906c0800000000000000
+      internalID: -4176619900538060237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_26
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 1197
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 509c4474d3fafd9a0800000000000000
+      internalID: -6206049083769698043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_27
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 1200
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7438fc8e97aadb80800000000000000
+      internalID: -8369192658102897540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_28
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 1200
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a86700d02e6cc71b0800000000000000
+      internalID: -5657428357701142902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_29
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 1200
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 467dfd94a11ece4f0800000000000000
+      internalID: -798015530926614684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_30
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 1200
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f51e6f68b2a6d1150800000000000000
+      internalID: 5844944626577236319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_31
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 1200
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9639f550de60aa440800000000000000
+      internalID: 4947774755687076713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_32
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 1200
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02404802f75547b30800000000000000
+      internalID: 4284143150030914592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_33
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 1200
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72063295782618320800000000000000
+      internalID: 2558434396778749991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_34
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 1200
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2814f6a057b04e010800000000000000
+      internalID: 1217110396611019138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_35
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 1185
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ce2e88499518f110800000000000000
+      internalID: 1294808640960474821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_36
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 1185
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7c705cb3bb408a50800000000000000
+      internalID: 6521295495763098746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_37
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 1185
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d7162566f167a680800000000000000
+      internalID: -8743912440629684271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_38
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 1185
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64f3a9f79baabbda0800000000000000
+      internalID: -5927956770816639162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_39
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 1185
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f76269031d25eb850800000000000000
+      internalID: 6394639579329472127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_40
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1185
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2692e133da55210f0800000000000000
+      internalID: -1147760752650737310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_41
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 1185
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f44afbd7330fab30800000000000000
+      internalID: 4300659707610809593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_42
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 1185
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eacb3ee6c1872d810800000000000000
+      internalID: 1788624065534344366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_43
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 1185
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5d595d73abf644e0800000000000000
+      internalID: -1997632705090986661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_44
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 1185
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a3c71d059e1b2da0800000000000000
+      internalID: -5968643255630838871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_45
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 1185
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a52be9ed27c9bf7b0800000000000000
+      internalID: -5189382128439217574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_46
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 1185
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f139e797b9ff1360800000000000000
+      internalID: 7142702100955869684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_47
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 1185
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88c9427807f033550800000000000000
+      internalID: 6139267693014195336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_48
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 891
+        width: 132
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cffc43e2a92e3c30800000000000000
+      internalID: 4340952870406651847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_49
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 891
+        width: 99
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f31cbcd933d781b0800000000000000
+      internalID: -5654318561670458384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_50
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 892
+        width: 91
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43b709402a0d5bd10800000000000000
+      internalID: 2140846592164395828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_51
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 892
+        width: 99
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f2ec3252babbd0b0800000000000000
+      internalID: -5702759228087934216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_52
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 892
+        width: 106
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b6dc67f6b3fb9f00800000000000000
+      internalID: 1124760499119773368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_53
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 702
+        width: 120
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caa864d5ee8d65de0800000000000000
+      internalID: -1344648920444794196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_54
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 717
+        width: 96
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66cc8cb3fb1a3a580800000000000000
+      internalID: -8817025802747458458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_55
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 717
+        width: 78
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ea7ea8b91c4a2670800000000000000
+      internalID: 8514701718853679840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_56
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 675
+        width: 121
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb9b6ccb979f7f010800000000000000
+      internalID: 1222720125107878334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_57
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 670
+        width: 98
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf62b052e863bd3a0800000000000000
+      internalID: -6639653241492920580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_58
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 459
+        width: 97
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84d8f2e1790204570800000000000000
+      internalID: 8448788734365633864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_59
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 457
+        width: 124
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bceb123ba72437c10800000000000000
+      internalID: 2050055350142484171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_60
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 459
+        width: 98
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02d2b99ea4ca279f0800000000000000
+      internalID: -472125573173662432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_61
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 459
+        width: 107
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dea7c1f768fb162f0800000000000000
+      internalID: -981292659410961683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_62
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 459
+        width: 107
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59647271ab744daa0800000000000000
+      internalID: -6137201527621204331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_63
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 243
+        width: 86
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6f0db759e7d864d0800000000000000
+      internalID: -3141023342891561105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_64
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 243
+        width: 121
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f470193aa4b989a00800000000000000
+      internalID: 763530881713375055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_65
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 243
+        width: 121
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87b5ed175027e3c90800000000000000
+      internalID: -7188182587525932168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_66
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 243
+        width: 121
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97a9c4373d4cf26b0800000000000000
+      internalID: -5318816222449722759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_67
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 250
+        width: 116
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92b10eb9e07e7bf40800000000000000
+      internalID: 5744313899665070889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_68
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 27
+        width: 109
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7be2d6924fbf6c60800000000000000
+      internalID: 7813674171230251902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_69
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 25
+        width: 98
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89e71334d58b5bf10800000000000000
+      internalID: 2284935096659181208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_70
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 24
+        width: 124
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec416b5362cd2ad40800000000000000
+      internalID: 5594275743815570638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_71
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 27
+        width: 97
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e99e002850885e30800000000000000
+      internalID: 4492481744285374947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Punch-Out!! - Boxers - Mad Clown_72
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 27
+        width: 97
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25815d7222587fd40800000000000000
+      internalID: 5618105441911642194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_0: -4567363742610095219
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_1: -5660897300004395520
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_10: 2380736421611185831
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_11: -2124968082434049246
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_12: -5945052879061577588
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_13: -8926964728620461359
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_14: -7949008360455000738
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_15: 7524045114420296064
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_16: -5108892578028818019
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_17: 1727885403887475490
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_18: -8089079396251369719
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_19: -2577770133499509671
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_2: -8203081992945829200
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_20: -2768360275514200517
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_21: 2337320049910427959
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_22: 3432352380045535688
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_23: 8452901254306996294
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_24: 3138084176795334241
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_25: -4176619900538060237
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_26: -6206049083769698043
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_27: -8369192658102897540
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_28: -5657428357701142902
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_29: -798015530926614684
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_3: 1979404258562954017
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_30: 5844944626577236319
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_31: 4947774755687076713
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_32: 4284143150030914592
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_33: 2558434396778749991
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_34: 1217110396611019138
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_35: 1294808640960474821
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_36: 6521295495763098746
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_37: -8743912440629684271
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_38: -5927956770816639162
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_39: 6394639579329472127
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_4: -5218602204347814639
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_40: -1147760752650737310
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_41: 4300659707610809593
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_42: 1788624065534344366
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_43: -1997632705090986661
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_44: -5968643255630838871
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_45: -5189382128439217574
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_46: 7142702100955869684
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_47: 6139267693014195336
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_48: 4340952870406651847
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_49: -5654318561670458384
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_5: 7738262370466826485
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_50: 2140846592164395828
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_51: -5702759228087934216
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_52: 1124760499119773368
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_53: -1344648920444794196
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_54: -8817025802747458458
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_55: 8514701718853679840
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_56: 1222720125107878334
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_57: -6639653241492920580
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_58: 8448788734365633864
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_59: 2050055350142484171
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_6: -9209111498542268396
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_60: -472125573173662432
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_61: -981292659410961683
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_62: -6137201527621204331
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_63: -3141023342891561105
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_64: 763530881713375055
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_65: -7188182587525932168
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_66: -5318816222449722759
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_67: 5744313899665070889
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_68: 7813674171230251902
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_69: 2284935096659181208
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_7: -3077277873036650572
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_70: 5594275743815570638
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_71: 4492481744285374947
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_72: 5618105441911642194
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_8: -3614941318663094218
+      SNES - Super Punch-Out!! - Boxers - Mad Clown_9: 32645423605666737
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
